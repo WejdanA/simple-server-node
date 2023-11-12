@@ -37,8 +37,9 @@ app.post("/", (req, res) => {
 app.get("/products", (req, res) => {
   try {
     res.send(products);
-  } catch (error) {}
-  res.status(500).send({ success: false, message: error.message });
+  } catch (error) {
+    res.status(500).send({ success: false, message: error.message });
+  }
 });
 
 app.get("/products/:id", (req, res) => {
