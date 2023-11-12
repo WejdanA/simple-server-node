@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "description": "High-performance laptop for all your needs.",
+    "price": 3000
+  },
+  {
+    "id": 2,
+    "name": "smartphone",
+    "description": "High-performance smartphone for all your needs.",
+    "price": 2000
+  },
+  {
+    "id": "Sun Nov 12 2023 07:31:00 GMT+0300 (GMT+03:00)",
+    "name": "'ipad'",
+    "description": "'important device'",
+    "price": "3000"
+  }
+]
